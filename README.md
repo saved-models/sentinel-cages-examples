@@ -19,3 +19,8 @@ The second script (`bin/find_nearest.R`) is a set of functions for finding the n
 It takes a single argument pointing to some set of eastings/northings in a target time series relating to model output.
 
 This script further depends on the `sf` library as well as `geosphere` for calculating Haversine.
+
+
+## Data
+
+The R scripts are provided under GPLv3. Data in `contrib/` are from the [Loch Linnhe Biological Sampling Products 2011-2013](https://data.marine.gov.scot/dataset/loch-linnhe-biological-sampling-data-products-2011-2013-0) data package. These are provided under the Open Government License.
